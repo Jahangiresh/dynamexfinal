@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+dynamex.az	TRUE	/	FALSE	1999999999	advanced-frontend	3is32h1ku2bjkv5h7um5fdrorb
+dynamex.az	TRUE	/	FALSE	1999999999	_csrf-frontend	ed11f3da6e8197428d9a58908689620110c50aaf9557b139cf6fcb04d22afc00a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22lhARDch5PhJBKRi83AcmQmvJjos-R8xB%22%3B%7D
+dynamex.az	TRUE	/	FALSE	1999999999	advanced-backend	tnvrk3etjrq8ro7qqtgjahu697
+dynamex.az	TRUE	/	FALSE	1999999999	_csrf-backend	901ca8a68942c789837bc2a693a41a29c5c5ff05914c517f1e9b5d6fed5552b6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%224vD_WkpmV5DgWESSIIlCPRBniCRCvtCD%22%3B%7D
+

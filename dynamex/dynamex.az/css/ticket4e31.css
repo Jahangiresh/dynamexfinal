@@ -1,0 +1,327 @@
+.ticket-item {
+    border-radius: 9px;
+    -webkit-box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.07);
+    -moz-box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.07);
+    box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.07);
+    margin-bottom: 30px;
+}
+
+.ticket-status {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.ticket-status ul {
+    display: inline-block;
+}
+
+.ticket-status ul li {
+    list-style: none;
+    float: left;
+}
+
+.ticket-status ul li a {
+    display: block;
+    padding: 8px 36px;
+    font-family: 'SegoeSemiBold', sans-serif;
+    font-size: 15px;
+    color: #2C2C51;
+    border: solid 1px #FD475D;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.ticket-status ul li a.active,.ticket-status ul li a:hover {
+    background: #FD475D;
+    color: #fff;
+}
+
+.ticket-status ul li:first-of-type a {
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.ticket-status ul li:last-of-type a {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.ticket-status ul li:not(:first-of-type) a {
+    border-left: 0;
+}
+
+.ticket-list .row{
+    margin-bottom: 20px;
+}
+
+.dash-top-sp-border {
+    border-bottom: 1px solid #EEEEEE !important;
+    padding-bottom: 13px !important;
+    margin-bottom: 20px !important;
+}
+
+.ticket-number {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    width: 180px;
+    padding: 30px;
+    color: #fff;
+    background: linear-gradient(0deg, rgba(215, 215, 215, 0.56), rgba(215, 215, 215, 0.56)), #15B2EC;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.ticket-subject {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.ticket-btn {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 19px;
+    color: #FD475D;
+    padding: 14px 38px;
+    border: solid 1px #FD475D;
+    border-radius: 9px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.ticket-btn:hover {
+    background: #FD475D;
+    color: #fff;
+}
+
+.ticket-btm-button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticket-btm-button a,.create-ticket,.create-ticket-btn {
+    display: inline-block;
+    margin: auto;
+    background: #FD475D;
+    font-size: 19px;
+    color: #fff;
+    padding: 15px 62px;
+    border-radius: 9px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+}
+
+
+
+.create-ticket-btn {
+    margin: initial;
+    font-size: 17px;
+    color: #fff;
+    padding: 13px 52px;
+}
+
+.ticket-btm-button a:hover {
+    opacity: 0.9;
+}
+
+.parcel-text {
+    font-size: 14px;
+    line-height: 19px;
+    color: #7B7B93;
+    margin-top: 19px;
+}
+
+.create-ticket {
+    font-size: 17px;
+    color: #fff;
+    padding: 13px 52px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.create-ticket:hover {
+    opacity: .9;
+}
+
+.ticket-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.ticket-container textarea {
+    height: 153px !important;
+    border-radius: 10px;
+    resize: none;
+    padding-top: 10px;
+    font-family: 'Segoe UI';
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    padding: 20px 0;
+    margin-top: 24px;
+    box-shadow: 0 4px 14px rgb(4 40 68 / 8%);
+}
+
+.chat-item img {
+    margin: 0 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.chat-item .chat-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #250633;
+    opacity: 0.72;
+    padding: 0 9px;
+}
+
+.chat-item-user {
+    flex-flow: row-reverse;
+    text-align: right;
+}
+
+.chat-btm {
+    margin-top: 20px;
+}
+
+.chat-btm input {
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #CCCCCC;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.chat-btm input {
+    width: 81%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chat-btm button {
+    padding: 10px 47px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.field-ticketchat-message input {
+    margin-right: 12px;
+}
+
+.field-ticketchat-message .help-block {
+    margin-top: -11px;
+}
+
+@media(max-width:768px) {
+    .ticket-status ul li a {
+        padding: 7px 14px;
+        font-size: 13px;
+    }
+
+    .ticket-number {
+        width: 100%;
+        border-radius: 5px;
+        font-size: 15px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .ticket-subject {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .ticket-item .col-md-3:last-of-type {
+        padding: 11px;
+        text-align: center;
+    }
+
+    .ticket-btn {
+        font-size: 17px;
+        padding: 10px 31px;
+    }
+
+    .chat-btm input,.chat-btm .create-ticket {
+        width: 100%;
+        display: block;
+    }
+
+    .chat-item {
+        padding: 15px 0;
+    }
+
+    .chat-item img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .parcel-text {
+        font-size: 12px;
+        margin-top: -10px;
+        margin-bottom: 23px;
+    }
+
+    .ticket-container .b_save {
+        margin-top: 0;
+    }
+}
+
+.ticket-date {
+    margin-top: 11px;
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+    font-style: italic;
+}
+
+.ticket-date.text-left {
+    margin-left: 20px;
+}
+
+.ticket-date.text-right {
+    margin-right: 27px;
+}
+
+.ticket-choose-file {
+    display: inline-block !important;
+    padding: 10px 21px 8px 21px;
+    border: solid 1px #dddddd;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    width: auto;
+}
+
+.ticket-choose-file::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    background: url(images/paper-clip.svg) no-repeat center;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+
+.ticket-choose-file:hover {
+    background: rgba(0,0,0,0.03);
+}
